@@ -38,5 +38,5 @@ def test_larger_primes() -> None:
 
 def test_larger_composites() -> None:
     assert is_prime(100) is False
-    assert is_prime(121) is False  # 11 × 11
-    assert is_prime(143) is False  # 11 × 13
+    assert is_prime(121) is False
+    assert is_prime(143) is False
